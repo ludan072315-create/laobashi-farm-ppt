@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <defs>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3"/><feComponentTransfer><feFuncA type="table" tableValues="0 .13"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="1400" height="900" fill="#f5f1e8"/>
+  <rect x="58" y="58" width="1284" height="784" fill="#d8c9aa"/>
+  <path d="M58 600 C220 510 375 660 560 570 C760 475 945 605 1342 500 L1342 842 L58 842 Z" fill="#82945d"/>
+  <path d="M58 710 C270 620 515 760 790 685 C1030 620 1180 670 1342 650 L1342 842 L58 842 Z" fill="#506f42"/>
+  <g stroke="#1a2e1f" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M240 620 v-88"/>
+    <circle cx="240" cy="497" r="36" fill="#1a2e1f"/>
+    <path d="M200 580 h80"/>
+    <path d="M240 620 l-48 76"/>
+    <path d="M240 620 l52 76"/>
+    <path d="M360 640 v-62"/>
+    <circle cx="360" cy="548" r="26" fill="#1a2e1f"/>
+    <path d="M328 602 h64"/>
+    <path d="M360 640 l-36 55"/>
+    <path d="M360 640 l38 55"/>
+  </g>
+  <g transform="translate(850 560)" fill="none" stroke="#1a2e1f" stroke-width="8" stroke-linecap="round">
+    <path d="M0 135 C80 40 210 42 286 135"/>
+    <path d="M22 135 h242"/>
+    <path d="M92 135 v88"/>
+    <path d="M194 135 v88"/>
+    <circle cx="318" cy="84" r="32" fill="#1a2e1f"/>
+    <path d="M318 118 v74"/>
+    <path d="M318 150 l42 42"/>
+  </g>
+  <g fill="#1a2e1f" opacity=".16">
+    <circle cx="180" cy="180" r="90"/>
+    <circle cx="1160" cy="220" r="140"/>
+    <circle cx="1030" cy="385" r="45"/>
+  </g>
+  <rect width="1400" height="900" filter="url(#grain)"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f5f1e8"/>
+  <g fill="none" stroke="#1a2e1f" stroke-width="3" opacity=".18">
+    <path d="M120 180 H1480"/><path d="M120 350 H1480"/><path d="M120 520 H1480"/><path d="M120 690 H1480"/><path d="M120 860 H1480"/>
+    <path d="M220 110 V910"/><path d="M520 110 V910"/><path d="M820 110 V910"/><path d="M1120 110 V910"/><path d="M1420 110 V910"/>
+  </g>
+  <g font-family="Noto Sans SC, Arial, sans-serif" fill="#1a2e1f">
+    <g transform="translate(170 185)">
+      <circle r="58" fill="#789160"/><text x="92" y="-10" font-size="52" font-weight="700">采摘</text><text x="92" y="35" font-size="28" opacity=".68">杏 · 桃 · 梨</text>
+      <path d="M-20 -8 C10 -42 44 -22 18 15 C0 42 -36 36 -20 -8Z" fill="#f5f1e8"/>
+    </g>
+    <g transform="translate(760 250)">
+      <circle r="58" fill="#263f2c"/><text x="92" y="-10" font-size="52" font-weight="700">垂钓</text><text x="92" y="35" font-size="28" opacity=".68">成人 · 儿童 · 龙虾</text>
+      <path d="M-26 15 C0 -20 34 -14 40 10 C18 30 -12 36 -26 15Z" fill="#f5f1e8"/>
+    </g>
+    <g transform="translate(315 500)">
+      <circle r="58" fill="#a87945"/><text x="92" y="-10" font-size="52" font-weight="700">露营</text><text x="92" y="35" font-size="28" opacity=".68">烧烤 · 火锅 · 夜场</text>
+      <path d="M-36 34 L0 -34 L38 34 Z" fill="#f5f1e8"/>
+    </g>
+    <g transform="translate(940 560)">
+      <circle r="58" fill="#5f7e53"/><text x="92" y="-10" font-size="52" font-weight="700">萌宠</text><text x="92" y="35" font-size="28" opacity=".68">小羊 · 兔子 · 鹿 · 羊驼</text>
+      <path d="M-30 22 C-28 -20 28 -20 30 22 Z" fill="#f5f1e8"/>
+    </g>
+    <g transform="translate(580 770)">
+      <circle r="58" fill="#1a2e1f"/><text x="92" y="-10" font-size="52" font-weight="700">农事</text><text x="92" y="35" font-size="28" opacity=".68">共享菜园 · 捡土鸡蛋</text>
+      <path d="M-28 28 C-10 -32 20 -32 34 28 Z" fill="#f5f1e8"/>
+    </g>
+  </g>
+</svg>

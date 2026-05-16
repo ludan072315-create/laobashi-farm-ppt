@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f5f1e8"/>
+  <g transform="translate(210 190)">
+    <path d="M0 0 H1180 V620 H0 Z" fill="#1a2e1f"/>
+    <circle cx="0" cy="310" r="56" fill="#f5f1e8"/>
+    <circle cx="1180" cy="310" r="56" fill="#f5f1e8"/>
+    <g stroke="#f5f1e8" stroke-width="3" opacity=".25"><path d="M270 80 V540"/><path d="M905 80 V540"/></g>
+    <text x="105" y="160" font-family="Noto Serif SC, serif" font-size="76" fill="#f5f1e8" font-weight="700">试营业</text>
+    <text x="105" y="245" font-family="Noto Sans SC, sans-serif" font-size="38" fill="#f5f1e8" opacity=".8">周末田野福利</text>
+    <text x="350" y="165" font-family="Noto Sans SC, sans-serif" font-size="46" fill="#f5f1e8" font-weight="700">上午 · 大锅菜</text>
+    <text x="350" y="235" font-family="Noto Sans SC, sans-serif" font-size="46" fill="#f5f1e8" font-weight="700">下午 · 萌宠投喂包</text>
+    <text x="350" y="345" font-family="IBM Plex Mono, monospace" font-size="28" fill="#f5f1e8" opacity=".62">FIELD VALUE · SLOW WEEKEND · FAMILY TIME</text>
+    <text x="970" y="180" font-family="Georgia, serif" font-size="70" fill="#f5f1e8">9-22</text>
+    <text x="970" y="255" font-family="Noto Sans SC, sans-serif" font-size="32" fill="#f5f1e8" opacity=".75">营业时间</text>
+    <text x="970" y="380" font-family="Georgia, serif" font-size="70" fill="#f5f1e8">4-6</text>
+    <text x="970" y="455" font-family="Noto Sans SC, sans-serif" font-size="32" fill="#f5f1e8" opacity=".75">人/营位</text>
+  </g>
+</svg>

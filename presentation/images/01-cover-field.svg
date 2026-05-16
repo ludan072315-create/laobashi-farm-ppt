@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f1e8"/>
+      <stop offset="0.58" stop-color="#e7d9bc"/>
+      <stop offset="1" stop-color="#b7c39d"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="72%" cy="22%" r="30%">
+      <stop offset="0" stop-color="#fff7d1" stop-opacity=".95"/>
+      <stop offset=".45" stop-color="#e9bb6b" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#e9bb6b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .16"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <path d="M0 620 C260 535 470 690 760 600 C1040 515 1250 575 1600 500 L1600 1000 L0 1000 Z" fill="#789160"/>
+  <path d="M0 720 C255 635 510 770 820 675 C1110 590 1320 668 1600 610 L1600 1000 L0 1000 Z" fill="#4f6f47"/>
+  <path d="M0 820 C300 740 560 860 860 795 C1160 730 1340 780 1600 735 L1600 1000 L0 1000 Z" fill="#263f2c"/>
+  <g fill="none" stroke="#f5f1e8" stroke-opacity=".48" stroke-width="5">
+    <path d="M120 1000 C260 850 340 760 500 690"/>
+    <path d="M360 1000 C510 820 625 720 780 650"/>
+    <path d="M620 1000 C720 840 850 755 1030 690"/>
+    <path d="M910 1000 C1030 855 1180 780 1400 725"/>
+  </g>
+  <g transform="translate(1020 520)" fill="#1a2e1f" opacity=".92">
+    <path d="M0 160 h350 v130 h-350z"/>
+    <path d="M-20 160 L175 35 L370 160 Z"/>
+    <rect x="40" y="205" width="58" height="85" fill="#f5f1e8" opacity=".72"/>
+    <rect x="215" y="205" width="82" height="56" fill="#f5f1e8" opacity=".5"/>
+  </g>
+  <g transform="translate(190 625)" fill="#f5f1e8" opacity=".72">
+    <circle cx="0" cy="0" r="22"/>
+    <circle cx="38" cy="8" r="18"/>
+    <path d="M-35 70 C-10 25 50 30 80 70" stroke="#f5f1e8" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".45"/>
+</svg>
